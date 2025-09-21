@@ -1,0 +1,82 @@
+{
+  "patient_id": "26",
+  "initial_query": "好的，遵照您的指示。作为一名经验丰富的肺部肿瘤科医生，我将为您生成符合要求的精简“首诊问诊”场景描述。\n\n---\n\n患者XXX，71岁女性，因“发现右侧胸壁占位10余天”就诊。\n\n患者自述10余天前因活动后感气促就诊，行检查时意外发现胸部占位。为求进一步诊治，今日来我科门诊。患者目前无咳嗽、咳痰、咯血及胸痛等不适症状。既往体健，无吸烟史及家族肿瘤病史。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "考虑乳腺来源，华西会诊评估RO切除可能性大小，暂考虑手术后放化疗。",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 71,
+    "diagnosis": "右侧胸膜下恶性肿瘤:胸壁来源?",
+    "category": "综合治疗",
+    "original_summary": "患者因“检查发现右侧胸壁占位10+天”入我科，入我科前10+天, 患者因活动后气紧于我院心内科治疗,行胸部ct提示右肺上、中叶胸膜下占位,右上叶邻近支气管受压,肿瘤性病变?,无咳嗽咳痰、咯血胸痛等. 为求进一步治疗转我科. PET-CT提示右右肺上、中叶胸膜下占位,考虑恶性肿瘤,胸壁来源可能性大,余未见转移; CT引导下肺穿刺活检查见增生的梭形细胞,考虑肉瘤. PS评分0-1分.拟行讨论后拟定后续治疗.",
+    "generated_at": "2025-09-22 01:29:32"
+  }
+}

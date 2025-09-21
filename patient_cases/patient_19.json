@@ -1,0 +1,82 @@
+{
+  "patient_id": "19",
+  "initial_query": "好的，遵照您的指示。作为一名经验丰富的肺部肿瘤科医生，我将基于该病例的首诊情况，生成一个精炼的问诊场景描述。\n\n---\n\n患者，65岁男性，因“持续咳嗽伴右侧胸背痛1月余”就诊。\n\n患者自述近一月来症状进行性加重，疼痛明显，影响夜间休息。伴有乏力、食欲不振及不明原因的体重下降。既往体健，无长期吸烟史。简单查体可闻及右下肺呼吸音稍减弱。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "讨论结果：150方案：白紫+铂类+贝伐+PDL1？",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 65,
+    "diagnosis": "右肺下叶恶性肿瘤（浸润性腺癌 cT4N2M1c IVB期）",
+    "category": "药物治疗",
+    "original_summary": "患者2023-06-28首次于我院就诊，确诊右肺下叶恶性肿瘤（浸润性腺癌 cT4N2M1c IVB期），伴肝转移及多发骨转移，癌性疼痛明显部位予局部放疗，基因检测提示L858R错义突变，口服奥希替尼2月，复查见右下肺肿瘤较前明显缩小，双肺新增散在斑片影，考虑间质性肺炎，停药并予激素治疗，后肺炎好转，2023-10-12予阿美替尼靶向治疗，2023-10-22复查炎症再次加重，建议停药，患者自行减量间断服药，2023-12-24复查CT提示右下肺肿瘤较前稍增大，建议更改治疗方案，患者仍自行不规律服用靶向药，2024-02-24复查提示右下肺肿瘤较前明显增大，骨扫描提示骨转移灶较前明显增多，再次穿刺活检提示肉瘤样癌，再次基因检测提示L858R错义突变及MET定点扩增。",
+    "generated_at": "2025-09-22 01:26:24"
+  }
+}

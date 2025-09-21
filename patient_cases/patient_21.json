@@ -1,0 +1,82 @@
+{
+  "patient_id": "21",
+  "initial_query": "好的，医生。这是根据您的要求生成的精简“首诊问诊”场景描述：\n\n患者，78岁女性，因“胸闷、气促1月”就诊。\n\n患者自述近一月来活动后感胸闷、气促明显，伴有间断性右侧胸部不适。无长期吸烟史及家族肿瘤病史。初步查体发现右下肺呼吸音减弱。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "讨论结果：三代靶向耐药，建议抗血管+化疗，仍有L858R突变的话，也可选择保留靶向，加用贝伐珠单抗。",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 78,
+    "diagnosis": "左肺上叶恶性肿瘤、右肺下叶恶性肿瘤、脑继发恶性肿瘤",
+    "category": "药物治疗",
+    "original_summary": "患者因“奥希替尼靶向治疗后进展1月”入院，入院前1+年, 患者因右侧胸腔积液于我科就诊, 行右侧胸腔闭式引流术,积液查见腺癌细胞, 胸部ct提示左上肺结节, 行左上肺穿刺活检, 提示腺癌, 予送检基因检测提示p.L858突变, 遂口服奥希替尼靶向治疗, 门诊定期随诊. 2周前复查胸部ct提示肺部结节较前增大, 头颅MRI提示新增脑转移灶,分期:cT4N1M1b IVB期; 右下肺基因检测:检出靶点EGFR基因21号外显子子,L858R突变, 丰度35.11%，TP53突变, 丰度11.43%，EGFR扩增CN:2.8现为求进一步治疗收住入院.",
+    "generated_at": "2025-09-22 01:27:13"
+  }
+}

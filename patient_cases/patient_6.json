@@ -1,0 +1,82 @@
+{
+  "patient_id": "6",
+  "initial_query": "好的，遵照您的指示。作为一名经验丰富的肺部肿瘤科医生，我将基于该病例，为您生成一个精炼的“首诊问诊”场景描述。\n\n---\n\n患者，70岁男性，因“咳嗽、气促1月余”就诊。\n\n患者自述近一月来无明显诱因出现咳嗽，伴有活动后气促，症状呈进行性加重。有长期、大量吸烟史。为求进一步诊治来我院门诊。查体可闻及左侧肺部呼吸音减弱。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "舒格利单抗联合卡铂加多西他赛",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 70,
+    "diagnosis": "左肺上叶鳞状细胞癌T3N3M0 IIIC期",
+    "category": "药物治疗",
+    "original_summary": "患者因咳嗽气促入院，胸部CT示左肺上叶阻塞性肺不张，左肺上叶支气管开口处阻塞。病理示高分化鳞癌。基因检测阴性",
+    "generated_at": "2025-09-22 01:20:35"
+  }
+}

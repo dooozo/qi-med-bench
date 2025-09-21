@@ -1,0 +1,82 @@
+{
+  "patient_id": "28",
+  "initial_query": "好的，遵照您的指示，我将以一名经验丰富的肺部肿瘤科医生的身份，生成符合要求的精简“首诊问诊”场景描述。\n\n---\n\n患者XXX，74岁男性，因“体检发现双肺多发结节1月余”就诊。\n\n患者自述无咳嗽、咳痰、胸痛、呼吸困难等不适症状。无吸烟史及肿瘤家族史。体格检查未闻及干湿性啰音，无锁骨上淋巴结肿大。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "左下肺结节纤支镜检查，若能明确为Ca,可行SBRT，左上肺结节手术切除",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 74,
+    "diagnosis": "左肺下叶实性肺结节；双肺多发混杂密度肺结节",
+    "category": "综合治疗",
+    "original_summary": "患者2024.04.22因“检查发现双肺多发结节1月余”入院。患者胸部CT示左肺下叶实性肺结节；双肺多发混杂密度肺结节。患者肺功能示中度阻塞性通气功能障碍。部分肿瘤标志物轻度增高。",
+    "generated_at": "2025-09-22 01:30:25"
+  }
+}

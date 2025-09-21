@@ -1,0 +1,82 @@
+{
+  "patient_id": "30",
+  "initial_query": "好的，遵照您的指示，作为一名经验丰富的肺部肿瘤科医生，我将基于提供的完整病例，生成一个精炼的、符合要求的“首诊问诊”场景描述。\n\n---\n\n患者，72岁女性，因“体检发现右肺占位1周”就诊。\n\n患者自述无明显咳嗽、咳痰、胸痛或呼吸困难等不适。重要既往史：约10年前曾因肺癌行左下肺手术治疗。否认吸烟史。体格检查：左侧锁骨上窝可触及一肿大淋巴结。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "肺穿刺活检，骨髓活检术，完善基因检测",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 72,
+    "diagnosis": "1、右肺上叶占位，肺癌？ 2、全身骨代谢增高 ，血液系统肿瘤？其他  3、贫血",
+    "category": "检查",
+    "original_summary": "患者1周前于外院检查发现右肺占位性病变，大小约4.3*3.6cm。为进一步治疗来我院。PET-CT：右肺上叶后段占位，考虑肺癌，左锁骨上淋巴结倾向转移（1.1*0.7cm），全身多处骨代谢弥漫性增高，需除外血液系统疾病。既往史：2013年行左下肺癌根治术，T1bN0M0？术后化疗4周期",
+    "generated_at": "2025-09-22 01:31:15"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "patient_id": "46",
+  "initial_query": "好的，医生。这是根据您的要求生成的精简“首诊问诊”场景描述：\n\n患者，57岁女性，因“右肺癌术后复查发现异常”前来就诊。\n\n患者自述3个月前因发现肺部占位于外院行手术治疗，术后告知病理为“肺腺癌”，并完成了2个周期的术后化疗。近期在外院复查时，医生告知其影像检查有新的变化，建议进一步诊治。患者目前无明显咳嗽、咳痰、胸痛及呼吸困难。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "按照同步放化疗方案执行",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 57,
+    "diagnosis": "右肺下叶腺癌术后 T2N2M0 IIIA期",
+    "category": "综合治疗",
+    "original_summary": "患者3个月前于外院行右肺下叶切除+淋巴结切除，术后病理提示低分化腺癌T2N2M0 IIIA期，术后辅助化疗2周期，培美曲塞+卡铂，复查提示纵隔淋巴结增大",
+    "generated_at": "2025-09-22 01:37:57"
+  }
+}

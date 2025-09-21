@@ -1,0 +1,505 @@
+{
+  "tools": [
+    {
+      "tool_id": "LC001",
+      "tool_name": "get_chest_ct_metrics",
+      "tool_description": "获取胸部CT影像学客观指标数据，包括肿瘤尺寸、位置、淋巴结状态等原始测量值",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          },
+          "scan_date": {
+            "type": "string",
+            "description": "CT检查日期(可选)，格式：YYYY-MM-DD"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "tumor_size": {
+            "type": "object",
+            "properties": {
+              "max_diameter_mm": "number",
+              "volume_cm3": "number",
+              "location": "string"
+            }
+          },
+          "lymph_nodes": {
+            "type": "array",
+            "items": {
+              "station": "string",
+              "size_mm": "number",
+              "suv_value": "number"
+            }
+          },
+          "pleural_invasion": "boolean",
+          "chest_wall_invasion": "boolean",
+          "atelectasis": "boolean",
+          "pleural_effusion_ml": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC002",
+      "tool_name": "get_tumor_markers",
+      "tool_description": "查询肺癌相关肿瘤标志物的实验室数值",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          },
+          "test_date": {
+            "type": "string",
+            "description": "检验日期(可选)"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "CEA_ng_ml": "number",
+          "NSE_ng_ml": "number",
+          "CYFRA21_1_ng_ml": "number",
+          "SCC_ng_ml": "number",
+          "ProGRP_pg_ml": "number",
+          "CA125_U_ml": "number",
+          "CA199_U_ml": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC003",
+      "tool_name": "get_pathology_data",
+      "tool_description": "获取病理学检查的原始数据，包括组织学类型、分化程度等客观病理指标",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          },
+          "specimen_id": {
+            "type": "string",
+            "description": "标本编号(可选)"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "histology_type": "string",
+          "differentiation_grade": "string",
+          "ki67_percentage": "number",
+          "mitotic_count_per_hpf": "number",
+          "necrosis_percentage": "number",
+          "lymphovascular_invasion": "boolean",
+          "perineural_invasion": "boolean"
+        }
+      }
+    },
+    {
+      "tool_id": "LC004",
+      "tool_name": "get_genetic_mutations",
+      "tool_description": "查询基因突变检测结果，返回突变类型和丰度等原始数据",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          },
+          "test_type": {
+            "type": "string",
+            "description": "检测类型：NGS/PCR/FISH",
+            "enum": ["NGS", "PCR", "FISH"]
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "EGFR": {
+            "mutation_type": "string",
+            "allele_frequency": "number"
+          },
+          "ALK": {
+            "fusion_type": "string",
+            "positive_rate": "number"
+          },
+          "ROS1": {
+            "fusion_type": "string",
+            "positive_rate": "number"
+          },
+          "KRAS": {
+            "mutation_type": "string",
+            "allele_frequency": "number"
+          },
+          "BRAF": {
+            "mutation_type": "string",
+            "allele_frequency": "number"
+          },
+          "MET": {
+            "exon14_skipping": "boolean",
+            "amplification_ratio": "number"
+          },
+          "RET": {
+            "fusion_type": "string",
+            "positive_rate": "number"
+          },
+          "TP53": {
+            "mutation_type": "string",
+            "allele_frequency": "number"
+          },
+          "TMB_mut_per_mb": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC005",
+      "tool_name": "get_pdl1_expression",
+      "tool_description": "获取PD-L1免疫组化表达水平的定量数据",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          },
+          "antibody_clone": {
+            "type": "string",
+            "description": "抗体克隆号：22C3/SP263/SP142"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "tps_percentage": "number",
+          "cps_score": "number",
+          "ic_percentage": "number",
+          "staining_intensity": "string",
+          "positive_cell_count": "number",
+          "total_cell_count": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC006",
+      "tool_name": "get_tnm_staging_details",
+      "tool_description": "获取TNM分期的详细测量数据和评估指标",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "t_stage": {
+            "primary_tumor_size_cm": "number",
+            "invasion_structures": "array",
+            "satellite_nodules": "number"
+          },
+          "n_stage": {
+            "ipsilateral_hilar": "boolean",
+            "ipsilateral_mediastinal": "boolean",
+            "contralateral_mediastinal": "boolean",
+            "supraclavicular": "boolean",
+            "total_positive_nodes": "number"
+          },
+          "m_stage": {
+            "distant_metastasis": "boolean",
+            "metastasis_sites": "array",
+            "metastasis_count": "number"
+          }
+        }
+      }
+    },
+    {
+      "tool_id": "LC007",
+      "tool_name": "get_performance_status",
+      "tool_description": "查询患者体能状态评分和相关生理指标",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          },
+          "assessment_date": {
+            "type": "string",
+            "description": "评估日期"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "ecog_score": "integer",
+          "kps_score": "integer",
+          "weight_kg": "number",
+          "height_cm": "number",
+          "bmi": "number",
+          "weight_loss_percentage_6m": "number",
+          "daily_activity_hours": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC008",
+      "tool_name": "get_pulmonary_function",
+      "tool_description": "获取肺功能检查的客观测量值",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "fev1_liters": "number",
+          "fev1_percent_predicted": "number",
+          "fvc_liters": "number",
+          "fvc_percent_predicted": "number",
+          "fev1_fvc_ratio": "number",
+          "dlco_percent_predicted": "number",
+          "pao2_mmhg": "number",
+          "paco2_mmhg": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC009",
+      "tool_name": "get_blood_routine",
+      "tool_description": "查询血常规检验的原始数值",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          },
+          "test_date": {
+            "type": "string",
+            "description": "检验日期"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "wbc_10e9_l": "number",
+          "neutrophil_10e9_l": "number",
+          "lymphocyte_10e9_l": "number",
+          "hemoglobin_g_l": "number",
+          "platelet_10e9_l": "number",
+          "nlr_ratio": "number",
+          "plr_ratio": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC010",
+      "tool_name": "get_liver_kidney_function",
+      "tool_description": "获取肝肾功能的实验室检查数值",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "alt_u_l": "number",
+          "ast_u_l": "number",
+          "tbil_umol_l": "number",
+          "dbil_umol_l": "number",
+          "albumin_g_l": "number",
+          "creatinine_umol_l": "number",
+          "egfr_ml_min": "number",
+          "urea_mmol_l": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC011",
+      "tool_name": "get_treatment_history",
+      "tool_description": "查询既往治疗的详细参数和时间线",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          },
+          "treatment_type": {
+            "type": "string",
+            "description": "治疗类型：chemotherapy/radiotherapy/surgery/immunotherapy/targeted",
+            "enum": ["chemotherapy", "radiotherapy", "surgery", "immunotherapy", "targeted", "all"]
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "treatments": {
+            "type": "array",
+            "items": {
+              "treatment_type": "string",
+              "start_date": "string",
+              "end_date": "string",
+              "drug_names": "array",
+              "total_cycles": "number",
+              "cumulative_dose_mg": "number",
+              "response": "string",
+              "pfs_months": "number"
+            }
+          }
+        }
+      }
+    },
+    {
+      "tool_id": "LC012",
+      "tool_name": "get_immune_adverse_events",
+      "tool_description": "获取免疫治疗相关不良反应的分级数据",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "pneumonitis_grade": "integer",
+          "colitis_grade": "integer",
+          "hepatitis_grade": "integer",
+          "thyroiditis_tsh_miu_l": "number",
+          "rash_grade": "integer",
+          "myocarditis_troponin_ng_l": "number",
+          "nephritis_creatinine_increase_fold": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC013",
+      "tool_name": "get_chemo_toxicity",
+      "tool_description": "查询化疗相关毒副反应的定量指标",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          },
+          "chemotherapy_regimen": {
+            "type": "string",
+            "description": "化疗方案名称"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "neutropenia_grade": "integer",
+          "anemia_grade": "integer",
+          "thrombocytopenia_grade": "integer",
+          "nausea_grade": "integer",
+          "neuropathy_grade": "integer",
+          "alopecia_grade": "integer",
+          "fatigue_grade": "integer"
+        }
+      }
+    },
+    {
+      "tool_id": "LC014",
+      "tool_name": "get_radiation_parameters",
+      "tool_description": "获取放疗的物理剂量参数",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "total_dose_gy": "number",
+          "fraction_dose_gy": "number",
+          "total_fractions": "integer",
+          "ptv_volume_cc": "number",
+          "lung_v20_percent": "number",
+          "lung_v5_percent": "number",
+          "mean_lung_dose_gy": "number",
+          "heart_v40_percent": "number",
+          "esophagus_max_dose_gy": "number"
+        }
+      }
+    },
+    {
+      "tool_id": "LC015",
+      "tool_name": "get_surgery_feasibility",
+      "tool_description": "评估手术可行性的客观指标",
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "patient_id": {
+            "type": "string",
+            "description": "患者唯一标识符"
+          }
+        },
+        "required": ["patient_id"]
+      },
+      "output_schema": {
+        "type": "object",
+        "properties": {
+          "predicted_postop_fev1_percent": "number",
+          "predicted_postop_dlco_percent": "number",
+          "cardiac_ejection_fraction": "number",
+          "resectable_tumor_volume_cc": "number",
+          "vessel_involvement": "boolean",
+          "bronchus_involvement": "boolean",
+          "estimated_resection_segments": "integer"
+        }
+      }
+    }
+  ]
+}

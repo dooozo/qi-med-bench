@@ -1,0 +1,82 @@
+{
+  "patient_id": "40",
+  "initial_query": "好的，医生。这是根据您的要求生成的精简“首诊问诊”场景描述：\n\n患者，66岁男性，因“左侧胸背部疼痛1年余”就诊。\n\n患者主诉一年前无明显诱因出现左侧胸背部持续性钝痛，近期无明显加重或缓解。无咳嗽、咳痰、咯血及呼吸困难等伴随症状。为求进一步明确诊断和治疗，特来我院门诊。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "目前考虑肺癌局部侵犯肋骨、椎体，分期考虑III C期，目前考虑为不可切除，建议按照III期不可切除治疗。",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 66,
+    "diagnosis": "左肺上叶恶性肿瘤（浸润性腺癌 伴左锁骨上淋巴结转移 T2-4椎体左侧份、T3-4椎体左侧附件、左侧第3、4后肋骨侵犯 cT4N3M0 IIIC期）",
+    "category": "综合治疗",
+    "original_summary": "患者因“左侧胸背部疼痛1+年”于2024-06-03入院，入院前门诊PET-CT提示：左上肺Ca伴左侧锁骨上淋巴结转移，T2-4椎体左侧份、T3-4椎体左侧附件、左侧第3、4后肋骨转移，颅脑MR未见脑转移，穿刺活检提示浸润性腺癌，暂无基因检测及PDL1检测结果。",
+    "generated_at": "2025-09-22 01:35:19"
+  }
+}

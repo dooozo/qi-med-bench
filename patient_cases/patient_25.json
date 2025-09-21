@@ -1,0 +1,82 @@
+{
+  "patient_id": "25",
+  "initial_query": "好的，遵照您的指示，我将以一名经验丰富的肺部肿瘤科医生的身份，生成一个精简的“首诊问诊”场景描述。\n\n---\n\n患者王女士，54岁女性，因“体检发现肺部占位1天”就诊。\n\n患者自述无咳嗽、咳痰、胸闷、气促、胸痛或咯血等任何不适症状，此次因单位年度体检行胸部CT时偶然发现肺部有阴影。既往身体健康，无吸烟史及肿瘤家族史。体格检查未闻及呼吸音异常，亦无其他阳性体征。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "辅助化疗后免疫维持",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 54,
+    "diagnosis": "右肺中叶淋巴上皮癌伴纵隔淋巴结多发转移pT2bN2M0 IIIA期",
+    "category": "综合治疗",
+    "original_summary": "患者因“发现右肺占位1-天”入院，入院前1天, 患者因体检发现右中肺占位,无胸闷气紧、咳嗽咳痰、咯血胸痛等. 为求进一步治疗收住入院. 入院完善相关检查, 排除禁忌后行胸腔镜下右中肺癌根治术,术后病理提示:淋巴上皮癌,建议排除鼻咽癌后可考虑肺原发,纵隔淋巴结多组查见癌.患者完善肺癌相关基因检测后出院,基因检测未查见具有临床意义的变异解读; PDL1=60%(TPS). 现患者术后3周,拟多学科讨论后拟定行后续辅助治疗计划.",
+    "generated_at": "2025-09-22 01:29:06"
+  }
+}

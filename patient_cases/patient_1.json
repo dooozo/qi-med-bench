@@ -1,0 +1,82 @@
+{
+  "patient_id": "1",
+  "initial_query": "好的，遵照您的指示。作为一名经验丰富的肺部肿瘤科医生，我将基于该完整病例，为您生成一个符合所有要求的精简“首诊问诊”场景描述。\n\n---\n\n患者，80岁女性，因“活动后气短、左胸不适近1月”就诊。\n\n患者自述既往身体健康，无吸烟史及家族肿瘤病史。初步查体发现左肺呼吸音明显减弱。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "完善增强CT，穿刺活检，基因检测+免疫检测",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 80,
+    "diagnosis": "左肺上叶腺癌cT2N2M1a IVA期",
+    "category": "检查",
+    "original_summary": "患者2020年4月因左侧胸腔积液入院，CT提示左肺上叶占位，胸水查见异型细胞，肺穿刺活检确诊为腺癌，初诊IVA期肺腺癌，基因检测提示EGFR L858R突变，口服阿法替尼治疗，效果评价PR；2021年10月，肿瘤缓慢进展，加用贝伐珠单抗治疗，效果评价SD（缩小）；2022年10月，左肺上叶病灶增大，肿瘤进展（PD），再次穿刺活检及基因检测：EGFR L858R合并T790M突变，口服奥希替尼治疗，评价效果PR，2023年12月复查胸部CT提示左肺上叶病灶略有增大，胸膜下结节，明显增大，肿瘤进展（PD）。",
+    "generated_at": "2025-09-22 01:18:19"
+  }
+}

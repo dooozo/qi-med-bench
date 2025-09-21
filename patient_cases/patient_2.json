@@ -1,0 +1,82 @@
+{
+  "patient_id": "2",
+  "initial_query": "好的，遵照您的指示，这是为您生成的精简“首诊问诊”场景描述：\n\n患者李先生，71岁男性，因“体检发现左肺占位5月余”就诊。患者有长期吸烟史，近半年来有间断咳嗽、咳少量白痰，无明显胸痛、咯血及呼吸困难。据述，外院曾行支气管镜检查未明确诊断，近期复查影像提示病灶较前增大。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "先行化疗联合免疫诱导治疗，降期后评估是否手术",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 71,
+    "diagnosis": "左下肺占位性病变",
+    "category": "综合治疗",
+    "original_summary": "患者因“体检发现左肺占位性病变5+月”入院，入院5+月前，患者于我院行胸部CT检查示：左肺下叶背段软组织肿块大小约35mm×23mm，性质？，患者咳嗽咳泡沫白痰，无胸闷、胸痛、咯血等，于呼吸科住院，2023/09/07行纤支镜活检，结果示：“左肺下叶”轻度慢性炎伴出血及炭末沉积；“7组淋巴结”EBUS-TBNA活检示查见极少许纤毛柱状上皮细胞，未见恶性肿瘤。后自行予中药口服治疗。2023-12-25我科门诊复诊，胸部CT示左肺下叶背段软组织密度肿块影，大小约41mm×41mm，边缘呈分叶状，牵拉周围胸膜，较3月前明显增大。纵隔淋巴结增大同前。自患者发病以来，精神、食欲、睡眠可，大小便正常，体重未检测。目前已完善CT引导下肺穿刺活检，病理提示鳞状细胞癌，分期：cT4N3M0 IIIC",
+    "generated_at": "2025-09-22 01:18:49"
+  }
+}

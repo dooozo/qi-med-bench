@@ -1,0 +1,17 @@
+{
+  "1": {
+    "histology_type": "腺癌",
+    "differentiation_grade": "中分化",
+    "ki67_percentage": 65
+  },
+  "2": {
+    "histology_type": "腺癌",
+    "differentiation_grade": "中分化",
+    "ki67_percentage": 70
+  },
+  "3": {
+    "histology_type": "腺癌",
+    "differentiation_grade": "中分化",
+    "ki67_percentage": 75
+  }
+}

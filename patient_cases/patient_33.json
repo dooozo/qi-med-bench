@@ -1,0 +1,82 @@
+{
+  "patient_id": "33",
+  "initial_query": "好的，没问题。作为一名经验丰富的肺部肿瘤科医生，我将为您生成符合要求的精简“首诊问诊”场景描述。\n\n---\n\n患者，60岁女性，因“复查发现右上肺新发结节2月余”就诊。\n\n患者自述目前无咳嗽、咳痰、胸痛或呼吸困难等不适症状。既往有肺癌病史，3年多前曾行手术治疗，术后长期口服靶向药物，于数月前停药。否认吸烟史。体格检查未见明显异常。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "待病理区别复发或多原发，必要时再次基因检测，如病历阴性，行PET及MRD检测，根据MRD决定后续治疗。",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 60,
+    "diagnosis": "右上肺结节、右中肺浸润性腺癌(ypT1cN0M0 Ia3期)",
+    "category": "检查",
+    "original_summary": "3+年前患者确诊右肺中叶浸润性腺癌。行阿法替尼转化治疗。患者复查胸部CT示右中肺ca明显缩小，于2021-03-02全麻下行胸腔镜下右中肺癌根治术, 术后病理: “右肺中叶”新辅助化疗后手术标本, 病灶中可见部分浸润性腺癌(腺泡型为主), 病灶见广泛纤维化及部分坏死,肿瘤约占病灶的20%,病灶大小约2.5cm x 1cm x 0.6cm, 第2、4、7、10、11、12组淋巴结未查见癌. 术后分期: ypT1cN0M0 Ia3期. 术后继续口服阿法替尼靶向治疗至2023年底, 2024-02-21复查胸部ct示新见右上肺结节影,性质? ; 口服拜复乐抗炎, 2024-04复查该结节较前增大, 拟讨论后拟定后续治疗.",
+    "generated_at": "2025-09-22 01:32:24"
+  }
+}

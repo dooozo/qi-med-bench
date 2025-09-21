@@ -1,0 +1,82 @@
+{
+  "patient_id": "23",
+  "initial_query": "好的，遵照您的指示。作为一名经验丰富的肺部肿瘤科医生，我将基于该病例的完整信息，为您构建一个符合要求的、精简的首诊场景描述。\n\n---\n\n患者XXX，78岁男性，因“咳嗽、胸闷伴活动后气促1月余”就诊。患者有长期大量吸烟史。体格检查：精神状态尚可，右侧锁骨上可触及一枚肿大、质硬的淋巴结，活动度差。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "复查全身PET-CT+颅脑增强MR，术前评估，如远处无显著病灶优先考虑手术",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 78,
+    "diagnosis": "右上肺浸润性腺癌 cT2N3M1c ⅣB期",
+    "category": "检查",
+    "original_summary": "患者晚期肺癌，已于2022.5.30、2022.6.20、2022.7.11、2022.8.01行“舒格利单抗1200mg+培美曲塞0.8g+卡铂360mg”方案治疗四个周期。后舒格利单抗免疫维持治疗至今。疗效评估PR。",
+    "generated_at": "2025-09-22 01:28:08"
+  }
+}

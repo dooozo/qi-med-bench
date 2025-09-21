@@ -1,0 +1,82 @@
+{
+  "patient_id": "47",
+  "initial_query": "好的，没问题。作为一名经验丰富的肺部肿瘤科医生，我将为您生成符合要求的首诊问诊场景。\n\n---\n\n患者，63岁女性，因“反复咳嗽、胸闷1月余”就诊。\n\n患者自述近1月来无明显诱因出现咳嗽，伴有胸闷、气短，活动后加重。无发热、咳血。既往体健，无吸烟史及家族肿瘤史。门诊查体未闻及干湿性啰音。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "建议完善全身PET-CT，如远处转移灶无肿瘤活性，可考虑局部治疗（如纵隔淋巴结无活性，可手术切除，可考虑局部放疗）",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 63,
+    "diagnosis": "左上肺腺癌4期",
+    "category": "综合治疗",
+    "original_summary": "患者2023.06于我院确诊左肺上叶浸润性腺癌伴多发骨转移、脑转移 cT2N2M1c IVB期。基因检测示：EGFR 19del  PD-L1＜1%。患者于2023.06.14口服 奥希替尼 80mg qd靶向治疗。患者后规律复查。患者2024.06.21因胸闷气促1周入院。胸部CT示左上肺占位，肺部炎症。",
+    "generated_at": "2025-09-22 01:38:24"
+  }
+}

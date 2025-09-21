@@ -1,0 +1,82 @@
+{
+  "patient_id": "8",
+  "initial_query": "好的，医生。根据您的要求，这是基于该完整病例推导出的“首诊问诊”场景描述：\n\n---\n\n患者，71岁男性，因“反复咳嗽、胸闷2月余”就诊。\n\n患者自述近2月来持续干咳，伴活动后胸闷、气短，无明显发热、咯血。有长期重度吸烟史（超过40年，每日约1包）。近期自觉乏力，胃口稍差。查体发现左下肺呼吸音略有减弱。初步怀疑肺部占位性病变。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "改口服激素，逐步减量，加用磺胺类药物预防并发症，暂停免疫治疗，2月后复查（考虑免疫相关性肺炎可能性大）。",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 71,
+    "diagnosis": "左肺下叶鳞状细胞癌pT3N2M0 IIIB期",
+    "category": "药物治疗",
+    "original_summary": "患者因“肺癌术后9+月,拟行免疫维持治疗”入院，患者于2023-3-31行左下肺癌根治术,术后病理:“左肺下叶”中分化鳞状细胞癌,肿瘤大小6cm x 5cm x 3.5cm,查见血管侵犯,查见胸膜侵犯,支气管断端及血管未见癌“第7组淋巴结”查见淋巴结13枚,其中1枚查见癌(1/13);“第10组淋巴结”查见淋巴结5枚,其中1枚查见癌(1/5);“第11组淋巴结”查见淋巴结9枚,其中1枚查见癌(1/9).术后按照impower010模式行4周期化疗后阿替利珠单抗免疫维持治疗;本次入院复查评估肿瘤稳定, 新见双肺多发炎变; 双肺散在条索影增多,双侧胸膜增厚、粘连较前加重.予头孢美唑+可乐必妥抗炎一周后,症状加重,血象升高,痰查见白色念珠菌,予升级抗感染方案为:舒普深+卡泊芬净;一周后复查胸部ct感染加重, 予停用卡泊芬净,加用甲强龙40mg qd至今.",
+    "generated_at": "2025-09-22 01:21:27"
+  }
+}

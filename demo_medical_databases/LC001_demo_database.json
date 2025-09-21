@@ -1,0 +1,44 @@
+{
+  "1": {
+    "tumor_size": {
+      "max_diameter_mm": 35,
+      "volume_cm3": 15.5
+    },
+    "pleural_invasion": true,
+    "lymph_nodes": [
+      {
+        "station": "4R",
+        "size_mm": 12,
+        "suv_value": 3.2
+      }
+    ]
+  },
+  "2": {
+    "tumor_size": {
+      "max_diameter_mm": 40,
+      "volume_cm3": 15.5
+    },
+    "pleural_invasion": true,
+    "lymph_nodes": [
+      {
+        "station": "4R",
+        "size_mm": 12,
+        "suv_value": 3.2
+      }
+    ]
+  },
+  "3": {
+    "tumor_size": {
+      "max_diameter_mm": 45,
+      "volume_cm3": 15.5
+    },
+    "pleural_invasion": true,
+    "lymph_nodes": [
+      {
+        "station": "4R",
+        "size_mm": 12,
+        "suv_value": 3.2
+      }
+    ]
+  }
+}

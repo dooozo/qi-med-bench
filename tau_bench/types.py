@@ -75,7 +75,7 @@ class RunConfig(BaseModel):
     model: str
     user_model: str = "gpt-4o"
     num_trials: int = 1
-    env: str = "retail"
+    env: str = "medical"
     agent_strategy: str = "tool-calling"
     temperature: float = 0.0
     task_split: str = "test"

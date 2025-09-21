@@ -1,0 +1,82 @@
+{
+  "patient_id": "13",
+  "initial_query": "好的，没问题。作为一名经验丰富的肺部肿瘤科医生，我将为您生成一个符合要求的精简“首诊问诊”场景。\n\n---\n\n患者，71岁男性，因“腹痛、乏力半月余”就诊。\n\n患者自述近期出现上腹部隐痛，伴有食欲不振和全身乏力，无明显咳嗽、咳痰、胸痛及呼吸困难等症状。既往体健，有长期吸烟史（具体不详），否认肿瘤家族史。此次因腹部症状前来我院消化科就诊，检查提示肝功能异常。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "口服安罗替尼",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 71,
+    "diagnosis": "左肺下叶恶性肿瘤（粘液腺癌 双肺多发转移 cT4N2M1a IVA期）",
+    "category": "药物治疗",
+    "original_summary": "患者2023-09因腹痛、肝功能不全于我院就诊，检查提示左下肺腺癌（双肺多发转移 cT4N2M1a IVA期）、前列腺癌，基因检测未见靶向治疗相关突变，PDL1表达0%，按计划予四周期免疫+化疗（帕博利珠单抗+培美曲塞+顺铂），既往化疗后均出现严重骨髓移植及肝功能不全，现复查双肺病灶较前稍缩小，另见盆腹腔积液、肝右叶包膜下稍低密度灶、横结肠及右半结肠肠壁增厚，经肺癌一体化讨论后予免疫维持治疗，现已完成三周期免疫维持治疗，2024-02复查CT提示肺部病灶较前增大增多、腹膜炎较前加重。",
+    "generated_at": "2025-09-22 01:23:35"
+  }
+}

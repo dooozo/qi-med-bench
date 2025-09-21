@@ -1,0 +1,107 @@
+[
+  {
+    "patient_id": "1",
+    "initial_query": "患者1，65岁女性，因咳嗽咳痰1月余就诊，请问诊疗方案？",
+    "tool_call_results_map": {
+      "LC001": {
+        "tumor_size": {
+          "max_diameter_mm": 30
+        }
+      },
+      "LC002": {
+        "CEA_ng_ml": 4.5
+      },
+      "LC003": {
+        "histology_type": "腺癌"
+      }
+    },
+    "reference_conclusion": "建议完善检查后制定综合治疗方案",
+    "evaluation_rubrics": [
+      {
+        "criterion": "诊断准确性",
+        "description": "诊断是否准确",
+        "weight": 0.4
+      },
+      {
+        "criterion": "治疗合理性",
+        "description": "治疗方案是否合理",
+        "weight": 0.6
+      }
+    ],
+    "metadata": {
+      "age": 65,
+      "gender": "女",
+      "diagnosis": "肺癌"
+    }
+  },
+  {
+    "patient_id": "2",
+    "initial_query": "患者2，65岁女性，因咳嗽咳痰1月余就诊，请问诊疗方案？",
+    "tool_call_results_map": {
+      "LC001": {
+        "tumor_size": {
+          "max_diameter_mm": 35
+        }
+      },
+      "LC002": {
+        "CEA_ng_ml": 5.3
+      },
+      "LC003": {
+        "histology_type": "腺癌"
+      }
+    },
+    "reference_conclusion": "建议完善检查后制定综合治疗方案",
+    "evaluation_rubrics": [
+      {
+        "criterion": "诊断准确性",
+        "description": "诊断是否准确",
+        "weight": 0.4
+      },
+      {
+        "criterion": "治疗合理性",
+        "description": "治疗方案是否合理",
+        "weight": 0.6
+      }
+    ],
+    "metadata": {
+      "age": 65,
+      "gender": "女",
+      "diagnosis": "肺癌"
+    }
+  },
+  {
+    "patient_id": "3",
+    "initial_query": "患者3，65岁女性，因咳嗽咳痰1月余就诊，请问诊疗方案？",
+    "tool_call_results_map": {
+      "LC001": {
+        "tumor_size": {
+          "max_diameter_mm": 40
+        }
+      },
+      "LC002": {
+        "CEA_ng_ml": 6.1
+      },
+      "LC003": {
+        "histology_type": "腺癌"
+      }
+    },
+    "reference_conclusion": "建议完善检查后制定综合治疗方案",
+    "evaluation_rubrics": [
+      {
+        "criterion": "诊断准确性",
+        "description": "诊断是否准确",
+        "weight": 0.4
+      },
+      {
+        "criterion": "治疗合理性",
+        "description": "治疗方案是否合理",
+        "weight": 0.6
+      }
+    ],
+    "metadata": {
+      "age": 65,
+      "gender": "女",
+      "diagnosis": "肺癌"
+    }
+  }
+]

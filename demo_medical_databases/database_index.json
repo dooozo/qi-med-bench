@@ -1,0 +1,26 @@
+{
+  "tools": [
+    {
+      "tool_id": "LC001",
+      "tool_name": "demo_tool_LC001"
+    },
+    {
+      "tool_id": "LC002",
+      "tool_name": "demo_tool_LC002"
+    },
+    {
+      "tool_id": "LC003",
+      "tool_name": "demo_tool_LC003"
+    }
+  ],
+  "patients": [
+    "1",
+    "2",
+    "3"
+  ],
+  "database_files": [
+    "LC001_demo_database.json",
+    "LC002_demo_database.json",
+    "LC003_demo_database.json"
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "patient_id": "16",
+  "initial_query": "好的，遵照您的指示，作为一名专业的肺部肿瘤科医生，我将为您生成符合要求的“首诊问诊”场景描述。\n\n---\n\n患者，54岁女性，因“头痛加重2周”就诊。\n\n患者有肺癌病史，2年前曾行手术治疗，术后恢复良好。近1月来无明显诱因出现头痛，进行性加重，伴有间断恶心。外院腰椎穿刺检查后，考虑为肿瘤脑膜转移，现为求进一步治疗来我院。患者目前一般情况可，无发热、咳嗽、胸闷等不适。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "继续阿美替尼单药治疗，若效果差则加用鞘内注射",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 54,
+    "diagnosis": "右肺上叶腺癌术后脑膜转移",
+    "category": "药物治疗",
+    "original_summary": "入院前2年于我科行胸腔镜下右肺上叶癌根治术，术后病理：高分化腺癌，T1bN0M0 IA2期，术后基因检测提示：EGFR 19Del、TP53突变。术后定期复查未见复发，1月前患者因头痛到我院神经内科检查，头颅MRA未见异常，2周前患者头痛加重到华西医院神经内科就诊，脑脊液穿刺查见腺癌细胞。现为求进一步诊治收治入院。",
+    "generated_at": "2025-09-22 01:24:59"
+  }
+}

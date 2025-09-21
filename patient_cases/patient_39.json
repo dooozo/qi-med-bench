@@ -1,0 +1,82 @@
+{
+  "patient_id": "39",
+  "initial_query": "好的，没问题。作为一名经验丰富的肺部肿瘤科医生，我将为您生成符合要求的首诊问诊场景描述。\n\n---\n\n患者，51岁女性，因“右上肺癌术后1年半，常规复查发现异常”就诊。\n\n患者自述目前无咳嗽、咳痰、胸闷、胸痛及呼吸困难等任何不适症状。回顾病史，患者曾于1年半前因早期肺腺癌接受了胸腔镜手术，术后未进行化疗或放疗，一直规律门诊复查。本次为常规年度复查。体格检查未见明显阳性体征。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "同步放化疗后靶向维持",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 51,
+    "diagnosis": "右肺上叶浸润性腺癌术后；纵隔多发肿大淋巴结（N2）",
+    "category": "综合治疗",
+    "original_summary": "患者2022.10.27于我科行胸腔镜下右肺上叶后段切除及纵隔淋巴结切除术。术后病理示低分化浸润性腺癌，复杂腺样型为主（90%）+微乳头型（10%）。                   肿瘤大小1.4cm x 1.2cm x 0.8cm，未见胸膜及脉管侵犯，切源阴性。                  第4、7、11组淋巴结未见癌。患者诊断右上肺浸润性腺癌 pT1bN0M0 IA2期，基因检测提示19del，术后规律随访。患者2024.05.10于我院门诊行胸部CT示纵隔多发肿大淋巴结，余未见明显异常。患者于2024.05.16行EBUS-TBNA。患者穿刺病理示：查见非小细胞肺癌（腺癌60%，鳞状细胞癌40%），考虑肺来源。目前诊断：肺腺鳞癌  rT0N2M0 III期。淋巴结送检基因检测提示仍为19del。",
+    "generated_at": "2025-09-22 01:34:52"
+  }
+}

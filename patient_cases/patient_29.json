@@ -1,0 +1,82 @@
+{
+  "patient_id": "29",
+  "initial_query": "好的，遵照您的指示，作为一名经验丰富的肺部肿瘤科医生，我将基于提供的完整病例，生成一个符合所有要求的精简“首诊问诊”场景描述。\n\n---\n\n患者，74岁男性，因“咳嗽、咳痰伴痰中带血”2周余就诊。患者为老年男性，近期出现上述呼吸道症状，无明显发热、胸痛。为明确诊断，前来我院。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "继续1-2周期化疗联合免疫，然后评估是否手术（完善纤支镜，PET-CT）",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 74,
+    "diagnosis": "右肺鳞状细胞癌cT4N2M0 IIIB期",
+    "category": "综合治疗",
+    "original_summary": "患者2024年02月下旬因“咳嗽、咳痰、痰中带血”于重庆医科大学附属第二医院就诊，完善PET/CT（2024-02-29）示：右肺上叶肿块，考虑肺Ca, 侵及相应肺段支气管及右主支气管。肺穿刺活检示：鳞状细胞癌。临床诊断：右肺鳞癌IIIB期。2024-03-13、2024-04-03于我院行2周期联合治疗：替雷丽珠单抗200mg D1+紫杉醇 210mg D1+卡铂 500mg D1，q3w。2024-04-23我院复查胸腹部增强CT示：右肺上叶肿块较前明显缩小（78.5*65.0mm→54*51mm）。",
+    "generated_at": "2025-09-22 01:30:51"
+  }
+}

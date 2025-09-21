@@ -1,0 +1,82 @@
+{
+  "patient_id": "38",
+  "initial_query": "好的，遵照您的指示。作为一名经验丰富的肺部肿瘤科医生，我将基于该病例7个月前的首次就诊情况，生成一个精简的问诊场景描述。\n\n---\n\n患者，68岁男性，因“咳嗽伴咯血1周”就诊。\n\n患者自述近一周出现刺激性咳嗽，偶有痰中带血丝。既往有长期吸烟史，每日约1包，已吸烟40余年。否认家族中有肿瘤病史。查体未见明显阳性体征。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "揭盲临床研究",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 68,
+    "diagnosis": "右肺下叶腺癌术后T2N0M0 IB期",
+    "category": "其他",
+    "original_summary": "患者7个月前因“咳嗽伴咯血1周”入院，胸部CT提示右肺下叶占位性病变，行胸腔镜下右肺下叶癌根治手术，术后病理提示：低分化浸润性腺癌，胸膜侵犯、气道播散（STAS），淋巴结阴性，术后分期T2N0M0 IB期，基因检测提示RET融合突变。患者符合“一项评价在IB-IIIA期非小细胞肺癌根治术后使用Selercatinib治疗RET突变的3期随机、双盲“临床研究入组要求，自愿参加该临床研究，术后口服Selercatinib/安慰剂。1周前患者复查提示右肺门淋巴结较前增大，为进一步治疗入院。",
+    "generated_at": "2025-09-22 01:34:26"
+  }
+}

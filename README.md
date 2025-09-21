@@ -1,40 +1,59 @@
-# τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains
+# QI-Med-Bench
 
-**❗News**: We have released [τ²-bench](https://github.com/sierra-research/tau2-bench) as an extension of $\tau$-bench. $\tau^2$-bench includes code fixes and an additional `telecom` domain focusing on troubleshooting scenarios. Please use the $\tau^2$-bench as the latest version of this benchmark.
+医疗AI多轮工具调用评估系统，专注于肺癌三期患者的诊疗评估。
 
-**Paper**:
-* [τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains](https://arxiv.org/abs/2406.12045)
-* [τ²-Bench: Evaluating Conversational Agents in a Dual-Control Environment](https://arxiv.org/abs/2506.07982)
+基于τ-bench架构，专门为医疗领域重构的评估框架。
 
-We propose $\tau$-bench, a benchmark emulating dynamic conversations between a user (simulated by language models) and a language agent provided with domain-specific API tools and policy guidelines.
+## 特性
 
-## Leaderboard
+- 🏥 **医疗专用**: 针对肺癌三期患者的专业评估
+- 🔧 **多轮工具调用**: 评估AI的工具使用能力
+- ⚡ **高效并发**: 多线程数据生成，显著提升速度
+- 📊 **完整评估**: 从数据生成到评估的完整流程
+- 🎯 **真实场景**: 基于真实患者案例的评估
 
-### Airline
+## 快速开始
 
-| Strategy       | Pass^1 | Pass^2 | Pass^3 | Pass^4 |
-| -------------- | ------ | ------ | ------ | ------ |
-| [TC (claude-3-5-sonnet-20241022)](https://www.anthropic.com/news/3-5-models-and-computer-use)      | **0.460**     | **0.326**     | **0.263**     | **0.225**     |
-| [TC (gpt-4o)](https://platform.openai.com/docs/guides/function-calling)     | 0.420     | 0.273     | 0.220     | 0.200     |
-| [TC (claude-3-5-sonnet-20240620)](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)      | 0.360     | 0.224     | 0.169     | 0.139     |
-| [TC (mistral-large-2407)](https://docs.mistral.ai/capabilities/function_calling/)     | ??     | ??     | ??     | ??     |
-| [TC (gpt-4o-mini)](https://platform.openai.com/docs/guides/function-calling)     | 0.225     | 0.140     | 0.110     | 0.100     |
-| [Act](https://arxiv.org/abs/2210.03629) (gpt-4o)     | 0.365 | 0.217 | 0.160 | 0.140     |
-| [ReAct](https://arxiv.org/abs/2210.03629) (gpt-4o)     | 0.325 | 0.233 | 0.185 | 0.160     |
+```bash
+# 安装依赖
+pip install -r requirements.txt
 
-### Retail
+# 生成数据
+python main.py generate --component all
 
-| Strategy       | Pass^1 | Pass^2 | Pass^3 | Pass^4 |
-| -------------- | ------ | ------ | ------ | ------ |
-| [TC (claude-3-5-sonnet-20241022)](https://www.anthropic.com/news/3-5-models-and-computer-use)      | **0.692**     | **0.576**     | **0.509**     | **0.462**     |
-| [TC (gpt-4o)](https://platform.openai.com/docs/guides/function-calling)     | 0.604     | 0.491     | 0.430     | 0.383     |
-| [TC (claude-3-5-sonnet-20240620)](https://docs.anthropic.com/en/docs/build-with-claude/tool-use)      | 0.626     | 0.506     | 0.435     | 0.387     |
-| [TC (mistral-large-2407)](https://docs.mistral.ai/capabilities/function_calling/)     | ??     | ??     | ??     | ??     |
-| [TC (gpt-4o-mini)](https://platform.openai.com/docs/guides/function-calling)     | ??     | ??     | ??     | ??     |
-| [Act](https://arxiv.org/abs/2210.03629) (gpt-4o)     | ??     | ??     | ??     | ??     |
-| [ReAct](https://arxiv.org/abs/2210.03629) (gpt-4o)     | ??     | ??     | ??     | ??     |
+# 运行评估
+python main.py evaluate --patients 5
 
-*TC = `tool-calling` strategy (the function-calling strategy reported in the paper)
+# 监控进度
+python main.py monitor
+
+# 查看状态
+python main.py status
+```
+
+## 项目结构
+
+```
+qi-med-bench/
+├── config.py              # 统一配置管理
+├── main.py                 # 主程序入口
+├── core/                   # 核心模块
+│   ├── base.py            # 基础类
+│   ├── data_manager.py    # 数据管理
+│   └── evaluator.py       # 评估器
+├── generators/             # 数据生成器
+├── utils/                  # 工具模块
+└── data/                   # 数据文件
+```
+
+## 重构亮点
+
+- ✅ 统一配置管理
+- ✅ 基类消除重复代码  
+- ✅ 模块化架构
+- ✅ 类型注解和文档
+- ✅ 完善错误处理
+- ✅ CLI主程序
 
 ## Setup
 

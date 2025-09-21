@@ -1,0 +1,82 @@
+{
+  "patient_id": "42",
+  "initial_query": "好的，没问题。作为一名经验丰富的肺部肿瘤科医生，我将为您生成一个符合要求的、精简的“首诊问诊”场景描述。\n\n---\n\n患者，57岁女性，因“反复右侧胸痛1月”就诊。\n\n患者诉近1月来无明显诱因出现右胸部持续性钝痛，有时向后背部放射，无咳嗽、咳痰、咯血或呼吸困难。既往体健，无吸烟史及肿瘤家族史。体格检查：心肺听诊无明显异常，无锁骨上淋巴结肿大。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "综合意见：停用EGFR-TKI，更换卡瑞丽珠单抗，颅骨转移灶加放疗",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 57,
+    "diagnosis": "右肺上叶恶性肿瘤（鳞癌 伴纵隔淋巴结、全身多处骨转移 cT2N2M1c IVB期）",
+    "category": "综合治疗",
+    "original_summary": "患者2023-08因胸痛于我院就诊，检查确诊右肺上叶恶性肿瘤（鳞癌伴纵隔淋巴结、全身多处骨转移 cT2N2M1c IVB期），基因检测提示19号外显子p.E746_A750del，丰度41.44%，合并TP53、PIK3CA突变，PDL1表达50%，L3-5及骶骨予局部放疗3000cGy/10f/10d，后予阿美替尼靶向治疗，2024-02-25门诊复查提示双肺多发实性结节，较前新增，骨扫描提示部分颅骨、胸腰椎高代谢灶较前新增，于2024-03-21起接受四周期免疫+化疗（卡瑞利珠单抗+白紫+卡铂），复查提示双肺转移灶较前明显减少、缩小，多发颅骨转移，部分稍增大，合并甲亢及毛细血管增生。",
+    "generated_at": "2025-09-22 01:36:17"
+  }
+}

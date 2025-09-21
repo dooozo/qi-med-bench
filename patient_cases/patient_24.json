@@ -1,0 +1,82 @@
+{
+  "patient_id": "24",
+  "initial_query": "好的，遵照您的指示，作为一名经验丰富的肺部肿瘤科医生，我将基于该病例生成一个精简的“首诊问诊”场景描述。\n\n---\n\n患者XXX，78岁男性，因“体检发现右肺结节1+月”就诊。\n\n患者自述无明显咳嗽、咳痰、胸痛或呼吸困难等不适。1个多月前体检发现肺部结节，曾在外院接受抗感染治疗，但复查后结节无明显变化，故来我院寻求进一步诊治。既往史不详，个人史（如吸烟史）不详。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "血液相关疾病如无其它脏器累及，可保守观察，可考虑手术局部切除",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 78,
+    "diagnosis": "1、浆细胞瘤   2、右肺上叶结节：早期肺癌可能",
+    "category": "综合治疗",
+    "original_summary": "患者1+月前于我院检查发现右肺上叶混则密度结，抗感染治疗后复查结节未见明显变化，为进一步治疗入院，入院后完善相关检查：肺功能：中度阻塞性通气功能障碍；心电图提示右束支阻滞，一度房室传导阻滞；心脏彩超提示：EF 47%；冠脉造影提示冠脉多支轻-中度狭窄；血液检查提示M蛋白阳性，进一步完善免疫固定电泳、骨髓穿刺等检查，确诊浆细胞瘤，完善PET-CT提示全身多发骨质密度异常伴糖代谢不均匀增高，考虑血液系统疾病，右肺上叶实性结节、考虑肿瘤病变（早期肺癌？）其他",
+    "generated_at": "2025-09-22 01:28:34"
+  }
+}

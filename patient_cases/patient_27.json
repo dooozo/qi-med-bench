@@ -1,0 +1,82 @@
+{
+  "patient_id": "27",
+  "initial_query": "好的，医生。根据您的要求，这是为您生成的精简“首诊问诊”场景描述：\n\n患者，66岁男性，因“活动后胸闷、气短1月余”就诊。\n患者自诉2年多前曾因“右肺癌”行手术治疗，1年多前外院复查提示“左肺新发病灶”，未予重视。近期自觉症状加重。追问病史，患者有长期吸烟史。简单查体：颈部及锁骨上窝可触及数枚肿大淋巴结，质地较硬，活动度差。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "支持治疗后，根据体力评分按小细胞方案化疗",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 66,
+    "diagnosis": "左下肺低分化癌伴左上肺、纵隔颈部腹腔淋巴结转移，cT4N3M1c IVB期；右下肺鳞癌术后；食管高度鳞状上皮内瘤变ESD术后",
+    "category": "药物治疗",
+    "original_summary": "患者2021-01因食管病变于我院行ESD术（病检高度鳞状上皮内瘤变），期间检查提示右下肺结节，转我科2021-02行右下肺癌根治术（病检高分化鳞癌T1bN0M0），自诉外院随诊复查，2022-05外院检查提示左上肺实性结节、纵隔淋巴结肿大。我院EBUS活检4R淋巴结倾向神经内分泌癌，未行进一步诊治；2023-08患者活动后胸闷明显，CT提示双肺多发结节、纵隔及腹腔淋巴结肿大，左下肺穿刺病检“支持小细胞癌”，EBUS活检4R、11L“低分化癌，不除外小细胞癌”，基因检测未见一类突变，二类变异TP53，PDL1阴性；现已完成四周期免疫+化疗（替雷利珠单抗200mg D0+白蛋白紫杉醇180mg D1D8+顺铂30mg D1-3），两周期后复查疗效PR，四周期后复查左下肺结节及腹主动脉旁淋巴结较前稍增大，余病灶较前缩小或相仿，颈部及锁骨上窝淋巴结最大约1cm。经MDT讨论，建议患者继续予两周期免疫+化疗，患者拒绝，要求单免维持，予两周期免疫维持治疗后，2024-02至今患者未按计划返院继续治疗，2024-04-12患者因右侧胸壁疼痛来院就诊，检查提示肿瘤复发，纵隔肺门淋巴结、腹腔淋巴结明显增大融合，右侧胸腔积液增多，右侧第5肋及T9椎体高密度灶，新见肝脏多发转移及颅内异常信号灶。",
+    "generated_at": "2025-09-22 01:30:00"
+  }
+}

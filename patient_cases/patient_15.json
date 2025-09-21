@@ -1,0 +1,82 @@
+{
+  "patient_id": "15",
+  "initial_query": "好的，医生。这是根据您的要求生成的精简“首诊问诊”场景描述：\n\n患者，56岁女性，因“间断性右侧胸痛1月”就诊。\n\n患者自述近1月来无明显诱因出现右胸部隐痛，无咳嗽、咳痰、咯血或呼吸困难。既往体健，但有长期吸烟史30余年。否认家族肿瘤史。初步体格检查未发现明显阳性体征。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "待右上肺穿刺病理再次送检基因",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 56,
+    "diagnosis": "右肺上叶恶性肿瘤（鳞癌 伴纵隔淋巴结、全身多处骨转移 cT2N2M1c IVB期）",
+    "category": "检查",
+    "original_summary": "患者2023-08因胸痛于我院就诊，检查确诊右肺上叶恶性肿瘤（鳞癌伴纵隔淋巴结、全身多处骨转移 cT2N2M1c IVB期），基因检测提示19号外显子p.E746_A750del，丰度41.44%，合并TP53、PIK3CA突变，PDL1表达50%，L3-5及骶骨予局部放疗3000cGy/10f/10d，后予阿美替尼靶向治疗，2024-02-25门诊复查提示双肺多发实性结节，较前新增，骨扫描提示部分颅骨、胸腰椎高代谢灶较前新增。",
+    "generated_at": "2025-09-22 01:24:28"
+  }
+}

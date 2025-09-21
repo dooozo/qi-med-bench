@@ -1,0 +1,82 @@
+{
+  "patient_id": "37",
+  "initial_query": "好的，医生。这是根据您的要求生成的精简“首诊问诊”场景描述：\n\n患者XXX，72岁男性，因“咳嗽1月余”就诊。\n\n患者自述为刺激性干咳，无明显咯血、胸痛及呼吸困难。有长期大量吸烟史。外院胸部CT检查提示“左肺上叶占位”，为明确诊断及治疗前来我院门诊。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "患者III期不可切，行8周靶向治疗后缩瘤不明显，目前仍无法手术，建议行同步放化疗（根据研究方案）",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 72,
+    "diagnosis": "左肺上叶腺癌伴肺门、纵隔淋巴结转移 cT2aN2M0 IIIA期",
+    "category": "综合治疗",
+    "original_summary": "患者2个月前因“咳嗽1个月”入院，胸部CT提示左肺上叶占位性病变，PET-CT提示肺癌伴左喉返神经受累、肺门、纵隔淋巴结转移，穿刺活检为腺癌，明确诊断为左肺上叶腺癌伴肺门、纵隔多发淋巴结转移 cT2aN2M0 IIIA期，基因检测提示EGFR L858R突变。患者符合approach临床研究入组要求，自愿参加该临床研究，口服阿美替尼8周，复查CT提示左肺上叶病灶较前稍有缩小，淋巴结同前，目前为评估下一阶段治疗入院。",
+    "generated_at": "2025-09-22 01:34:01"
+  }
+}

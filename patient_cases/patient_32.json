@@ -1,0 +1,82 @@
+{
+  "patient_id": "32",
+  "initial_query": "好的，遵照您的指示。作为一名经验丰富的肺部肿瘤科医生，我将为您生成符合要求的首诊问诊场景描述。\n\n---\n\n患者张某，27岁男性，因“反复咳嗽1月余”就诊。\n\n患者为青年男性，无吸烟史及肿瘤家族史，近期无发热、盗汗。主要症状为刺激性干咳，无明显咳痰、咯血及胸痛。体格检查未见明显阳性体征。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "进一步鉴别TB，可考虑辅助以抗血管生成治疗。",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 27,
+    "diagnosis": "右肺下叶恶性肿瘤（腺癌 伴双肺、纵隔肺门颈部淋巴结、颅内、右侧肾上腺、全身多处骨转移 cT4N3M1c IVB期）",
+    "category": "药物治疗",
+    "original_summary": "患者2022-11因咳嗽于我院就诊，检查确诊右肺下叶恶性肿瘤（腺癌 伴双肺、纵隔肺门颈部淋巴结、颅内、右侧肾上腺、全身多处骨转移 cT4N3M1c IVB期），基因检测提示19号外显子p.E746_A750del，丰度49.15%，PDL1表达10%，予奥西替尼靶向治疗，1月后2023-01复查肿瘤明显退缩，疗效PR，后分别于2023-03、2023-05、2023-07、2023-10复查病情稳定，2024-04-28因胸闷咳嗽门诊复查提示右侧大量胸腔积液，收治入院，胸水细胞学未查见恶性肿瘤细胞，复查胸部CT提示右下肺病灶较前稍增大，双肺新增多发实性结节。",
+    "generated_at": "2025-09-22 01:32:01"
+  }
+}

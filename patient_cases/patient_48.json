@@ -1,0 +1,82 @@
+{
+  "patient_id": "48",
+  "initial_query": "好的，医生。这是根据您的要求生成的精简“首诊问诊”场景描述：\n\n患者，61岁男性，因“咳嗽、咳痰伴痰中带血3月余”就诊。患者自述近3个月来无明显诱因出现上述症状，无发热、胸痛、呼吸困难。既往体健，无特殊家族病史。为明确诊断和治疗前来就诊。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "右肺病灶穿刺明确病理，如为良性病变，可针对右肺病灶行手术切除",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 61,
+    "diagnosis": "右肺上叶肉瘤样癌伴肺内转移、纵隔淋巴结转移 cT3N2M0 IIIB期",
+    "category": "检查",
+    "original_summary": "患者因“诊断右肺上叶肉瘤样癌3月”入院，入院前3+月, 患者因“咳嗽咳痰, 痰中带血”入院, 胸部CT提示右肺上叶21mm*25mm实性结节, 双肺多发小结节; 完善CT引导下右上肺穿刺活检, 病理: 查见非小细胞肺癌; 部分细胞异型性明显, 呈梭形, 部分细胞含粘液呈印戒样, 结合免疫组化提示为肉瘤样癌; 完善纤支镜EBUS活检, 病理: (4R淋巴结)查见少许癌细胞呈印戒样, 符合转移性非小细胞肺癌(肉瘤样中腺癌成分). 分期: cT3N2M0 IIIB期, 基因检测未查见有意义突变, 拟行新辅助治疗后评估手术指征. 于2024-4-9、2024-4-30、2024-5-21分别行三周期免疫治疗+化疗, 方案:帕博利珠单抗200mg+白蛋白紫杉醇160mg(d1、8、15)+卡铂400mg(d1), 现患者为求进一步治疗收治入院.",
+    "generated_at": "2025-09-22 01:38:48"
+  }
+}

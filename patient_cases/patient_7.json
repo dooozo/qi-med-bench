@@ -1,0 +1,82 @@
+{
+  "patient_id": "7",
+  "initial_query": "好的，遵照您的指示。作为一名经验丰富的肺部肿瘤科医生，我将基于该病例生成一个精炼的、符合要求的首诊问诊场景描述。\n\n---\n\n患者，71岁女性，因“体检发现双肺占位1周余”就诊。\n\n患者自述无明显咳嗽、咳痰、胸痛、呼吸困难等不适。既往身体健康，无吸烟史及明确的肿瘤家族史。体格检查未闻及双肺干湿性啰音，无锁骨上淋巴结肿大。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "免疫+化疗",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 71,
+    "diagnosis": "右肺上叶占位性病变；左肺上叶混杂密度肺结节；双肺多发肺结节",
+    "category": "药物治疗",
+    "original_summary": "患者2024.01.16因“检查发现双肺上叶占位性病变1周余”入院。入院后完善PET-CT考虑左上肺癌伴多发淋巴结及骨转移。患者行CT引导下经皮肺穿刺示腺癌。肿瘤组织送基因检测示EBRR2基因20号外显子插入突变，PDL-1阳性低表达1%。患者目前诊断：左肺上叶腺癌 cT2N3M1c ⅣB期；右肺上叶前段原发性肺癌；右肺上叶后段原发性肺癌；甲状腺癌？",
+    "generated_at": "2025-09-22 01:21:02"
+  }
+}

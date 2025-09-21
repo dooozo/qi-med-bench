@@ -1,0 +1,82 @@
+{
+  "patient_id": "35",
+  "initial_query": "好的，遵照您的指示，作为一名专业的肺部肿瘤科医生，我将基于提供的完整病例，生成一个精简的“首诊问诊”场景描述。\n\n---\n\n患者，49岁男性，因“活动后气喘加重3月”就诊。\n\n患者自述有肺腺癌病史5年余，确诊时基因检测为ALK突变。过往曾先后接受克唑替尼、赛瑞替尼靶向治疗，后均出现耐药。目前正在口服劳拉替尼治疗，近期感觉气喘症状比之前明显加重。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "建议化疗",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 49,
+    "diagnosis": "肺腺癌ALK突变",
+    "category": "药物治疗",
+    "original_summary": "患者因“活动后气喘3月”入院，患者5+年前诊断肺腺癌ALK突变，曾口服“克唑替尼、赛瑞替尼”后耐药，现间断服用“罗拉替尼1粒 qd治疗，曾行放疗，既往病情控制可。 入院后检查双肺弥漫分布斑片及结节影，较前增多，弥漫转移伴癌性淋巴管炎?右肺下叶前基底段斜裂旁不规则实性结节影，较前增大，肿瘤进展。拟讨论后续治疗.",
+    "generated_at": "2025-09-22 01:33:14"
+  }
+}

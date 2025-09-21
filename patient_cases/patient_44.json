@@ -1,0 +1,82 @@
+{
+  "patient_id": "44",
+  "initial_query": "好的，遵照您的指示，以下是根据提供的完整病例生成的精简“首诊问诊”场景描述：\n\n---\n\n患者，63岁男性，因“反复咳嗽、咳痰2月余”就诊。患者有长期重度吸烟史，近期自觉乏力，无明显胸痛或呼吸困难。体格检查：双肺呼吸音清，未闻及啰音，未触及锁骨上淋巴结肿大。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "下一周期治疗前复查增强CT及纤支镜，全面评估，若能手术则手术，若不能手术则转为同步放化疗后免疫维持",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 63,
+    "diagnosis": "左肺上叶恶性肿瘤（鳞癌 cT4N0M0 IIIA期）",
+    "category": "综合治疗",
+    "original_summary": "患者2024-04因咳嗽咳痰于我院呼吸科就诊，检查确诊左肺上叶恶性肿瘤（鳞癌 cT4N0M0 IIIA期），基因检测提示TP53，PDL1表达5%，现已完成三周期免疫+化疗（度伐利尤单抗+多西他赛+卡铂），2024-06-18复查胸部CT提示左上肺肿块较前缩小，双肺多发微小结节，部分较前略增大。",
+    "generated_at": "2025-09-22 01:37:12"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "patient_id": "4",
+  "initial_query": "好的，医生。根据您的要求，这是为您生成的精简“首诊问诊”场景描述：\n\n患者，53岁女性，因“体检发现左肺占位1个多月”就诊。\n\n患者自述近一月偶有胸闷、干咳，无发热、咯血及呼吸困难。既往体健，否认吸烟史，无家族肿瘤病史。简单查体：左下肺呼吸音稍显减弱，未闻及明显干湿性啰音。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "考虑肺内多发转移可能性大，IV期可能，因为经济条件不好，可以先试吃克唑替尼1个月，1个月后复查，如果肺内病灶有缩小，证实是四期，就按照晚期继续吃药",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 53,
+    "diagnosis": "左肺下叶滑膜肉瘤伴纵隔胸膜、心包膜受累cT4N0M0 IIIA期",
+    "category": "药物治疗",
+    "original_summary": "患者主因“发现肺占位1+月”入院，胸部CT：左下肺肿物，最大面积约135mmx114mm,边缘毛糙，与纵隔及胸膜关系密切，左肺门淋巴结肿大伴轻度强化，大小约13mmx9mm，PET-CT:左下肺门-上叶下舌段-下叶巨大团块伴糖代谢增高，考虑肺CA，肺门及纵隔淋巴结考虑炎性治疗前PET，左下肺肿物EBUS活检，滑膜肉瘤，拟讨论问题，①患者治疗的选择？新辅助治疗？直接手术？②新辅助治疗方案选择？",
+    "generated_at": "2025-09-22 01:19:46"
+  }
+}

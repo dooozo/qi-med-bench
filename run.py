@@ -11,7 +11,7 @@ def parse_args() -> RunConfig:
     parser = argparse.ArgumentParser()
     parser.add_argument("--num-trials", type=int, default=1)
     parser.add_argument(
-        "--env", type=str, choices=["retail", "airline"], default="retail"
+        "--env", type=str, choices=["medical"], default="medical"
     )
     parser.add_argument(
         "--model",
@@ -53,7 +53,7 @@ def parse_args() -> RunConfig:
         type=str,
         default="test",
         choices=["train", "test", "dev"],
-        help="The split of tasks to run (only applies to the retail domain for now",
+        help="The split of tasks to run",
     )
     parser.add_argument("--start-index", type=int, default=0)
     parser.add_argument("--end-index", type=int, default=-1, help="Run all tasks if -1")

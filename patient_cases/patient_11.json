@@ -1,0 +1,82 @@
+{
+  "patient_id": "11",
+  "initial_query": "好的，遵照您的指示，作为一名经验丰富的肺部肿瘤科医生，我将基于提供的完整病例，生成一个符合所有要求的精简“首诊问诊”场景描述。\n\n---\n\n患者，66岁男性，因“右侧胸背部疼痛1月”就诊。\n\n患者为长期重度吸烟者，疼痛呈持续性，夜间为甚。近期无明显发热、咳嗽、咳痰。简单查体发现右侧胸壁有明显压痛，听诊双肺呼吸音清，未闻及啰音。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "免疫维持治疗",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 66,
+    "diagnosis": "右肺下叶恶性肿瘤（鳞癌 cT4N2M0 IIIB期）",
+    "category": "药物治疗",
+    "original_summary": "患者2023-09-15因右侧胸背部疼痛于我院就诊，确诊右下肺鳞癌伴右上肺、右侧肋骨、纵隔淋巴结转移 cT4N2M0 IIIB期，患者家属表示不行基因检测，现已完成六周期免疫+化疗（信迪利单抗+白蛋白紫杉醇+顺铂）及右下肺肿物、肋骨局部放疗3000cGy/10f/10d、2400 cGy/12f/12d。",
+    "generated_at": "2025-09-22 01:22:50"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "patient_id": "5",
+  "initial_query": "好的，医生。这是根据您的要求生成的精简“首诊问诊”场景描述：\n\n患者LXY，57岁女性，因“体检发现右肺结节5天”就诊。\n\n患者近期无咳嗽、咳痰、胸痛、呼吸困难等不适症状。既往体健，否认高血压、糖尿病史，无吸烟史。体格检查未见明显阳性体征，一般状况良好，PS评分为0分。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "完善NGS检测，PDL1，TMB检测，可以考虑化疗+免疫新辅助治疗",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 57,
+    "diagnosis": "右肺下叶浸润性腺癌伴11组淋巴结转移 pT1bN1M0 IIB期",
+    "category": "综合治疗",
+    "original_summary": "LXY，女性，57岁，主因“体检发现右肺结节5天”入院。既往否认高血压、糖尿病、冠心病等病史。否认吸烟史。PS评分 0分。2024-1-10全麻下行胸腔镜下右下肺楔形切除+淋巴结切除术+胸膜粘连带烙断术，胸部CT：右肺下叶前基底段实性结节，大小约12mm x 9mm,增强扫描见轻度强化,呈浅分叶状,边缘不光整,可见毛刺,临近胸膜牵拉;另见双肺多发磨玻璃及实性结节.肺门及纵隔多发淋巴结肿大，部分钙化腹部(-)、头颅(-) 、骨扫描（-），右下肺结节术后病理：低分化浸润性腺癌;(第11组淋巴结)查见少许肺组织,可见癌侵及. 基因检测：EML4-ALK（E20：A20）基因重排(融合)（4.44%)、PD-L1（TPS 0%） NGS检测报告。诊断：右肺下叶浸润性腺癌伴11组淋巴结转移 pT1bN1M0 IIB期。患者后续治疗的选择 ？",
+    "generated_at": "2025-09-22 01:20:08"
+  }
+}

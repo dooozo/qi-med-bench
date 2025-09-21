@@ -1,0 +1,82 @@
+{
+  "patient_id": "20",
+  "initial_query": "好的，遵照您的指示。作为一名经验丰富的肺部肿瘤科医生，我将基于提供的完整病例，生成一个精炼的、符合要求的“首诊问诊”场景描述。\n\n---\n\n患者，70岁女性，因“咳嗽、胸闷1月，活动后气促加重1周”就诊。患者自述近期无发热，无咳血。体格检查发现其左下肺呼吸音减低，叩诊呈浊音。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "左侧胸膜肿物穿刺活检，建议PET-CT",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "女",
+    "age": 70,
+    "diagnosis": "左肺下叶腺癌伴肺门纵隔淋巴结转移、肺内转移、胸膜转移",
+    "category": "检查",
+    "original_summary": "患者1年前于我科住院，CT提示左肺下叶占位，双肺多发小结节，左侧胸腔积液。胸水引流为淡血性，未查见癌细胞，肺穿刺活检提示肺腺癌，初诊肺腺癌伴肺门纵隔淋巴结转移，肺内转移，胸膜转移？IV期，基因检测提示EGFR 19Del，TP53突变，口服奥希替尼治疗，肺部原发灶及肺内结节缩小，门诊随访，半年前提示左侧胸膜下结节，随访半年，持续增大，现为求进一步治疗",
+    "generated_at": "2025-09-22 01:26:49"
+  }
+}

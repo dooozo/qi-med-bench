@@ -1,0 +1,82 @@
+{
+  "patient_id": "14",
+  "initial_query": "好的，医生。这是根据您提供的完整病例信息，为您生成的精简版“首诊问诊”场景描述：\n\n---\n\n患者，54岁男性，因“咯血15天，伴气紧10天”就诊。\n\n患者自述15天前无明显诱因出现痰中带血，量不大，10天前开始出现活动后气紧。无发热、胸痛、盗汗等其他不适。既往体健，无特殊家族史。\n\n请问这位患者的诊疗方案应该是什么？",
+  "tool_call_results_map": {
+    "LC001": {
+      "status": "no_data_available"
+    },
+    "LC002": {
+      "status": "no_data_available"
+    },
+    "LC003": {
+      "status": "no_data_available"
+    },
+    "LC004": {
+      "status": "no_data_available"
+    },
+    "LC005": {
+      "status": "no_data_available"
+    },
+    "LC006": {
+      "status": "no_data_available"
+    },
+    "LC007": {
+      "status": "no_data_available"
+    },
+    "LC008": {
+      "status": "no_data_available"
+    },
+    "LC009": {
+      "status": "no_data_available"
+    },
+    "LC010": {
+      "status": "no_data_available"
+    },
+    "LC011": {
+      "status": "no_data_available"
+    },
+    "LC012": {
+      "status": "no_data_available"
+    },
+    "LC013": {
+      "status": "no_data_available"
+    },
+    "LC014": {
+      "status": "no_data_available"
+    },
+    "LC015": {
+      "status": "no_data_available"
+    }
+  },
+  "reference_conclusion": "讨论结果：先行新辅助治疗3周期后评估是否可手术，完善基线检查。",
+  "evaluation_rubrics": [
+    {
+      "criterion": "诊断准确性",
+      "description": "诊断是否准确",
+      "weight": 0.3
+    },
+    {
+      "criterion": "治疗方案合理性",
+      "description": "治疗方案是否合理",
+      "weight": 0.3
+    },
+    {
+      "criterion": "工具调用完整性",
+      "description": "是否充分利用工具获取信息",
+      "weight": 0.2
+    },
+    {
+      "criterion": "临床决策逻辑",
+      "description": "决策过程是否逻辑清晰",
+      "weight": 0.2
+    }
+  ],
+  "metadata": {
+    "gender": "男",
+    "age": 54,
+    "diagnosis": "右肺鳞癌 T4N0M0？   IIIA期 纵膈淋巴结轻度强化、颈部淋巴结反应性增生分期情况",
+    "category": "综合治疗",
+    "original_summary": "[入院前15+天，患者无明显诱因出现咯血,为痰中带血,约2+ml,无胸闷胸痛,无心悸、无畏寒发热,无潮热盗汗,无恶心呕吐,无端坐呼吸、无夜间阵发性呼吸困难,无关节疼痛。患者未予以重视,入院前10+天,患者咯血同时伴有气紧，遂于我院门诊就诊，门诊CT提示:与2023/11/28胸部CT比较:新见右肺门支气管腔内软组织结节影，性质?右肺上叶肺不张同前,建议结合纤支镜及CT增强检查。支气管炎征象。右肺下叶背段混杂密度结节，较前稍增大，随诊复查。右肺中叶及双肺下叶小结节，较前变化不大，随诊。左肺下叶肺囊肿同前。主动脉壁及冠脉钙化。右侧第6肋骨前段骨质欠规整。左侧膈疝。目前治疗方案帕博利珠单抗+多西他赛+卡铂（2月26日）；讨论内容及目的：请病理科老师讲解下高级别黏液表皮样癌的病理特点及预后；请CT室老师看下纵膈淋巴结部分强化目前是否考虑淋巴结转移？IIIA？IIIB期？；请胸外科老师看下新辅助化疗后手术可能性此次是否先行PET-CT了解淋巴结情况/新辅助降期后PET-CT再行评估？",
+    "generated_at": "2025-09-22 01:23:58"
+  }
+}
